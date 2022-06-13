@@ -1,2 +1,3 @@
 # MyPage
-web page about me and my projects
+
+This is my portfolio, where You can check out my recent projects
