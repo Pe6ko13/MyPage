@@ -13,11 +13,12 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #525458;
+    background-color: #8d8d8d;
     color: #f0f0f0;
 }
 
 .about h1 {
+    margin-top: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 80px;
     color: #55ee90;
@@ -28,10 +29,16 @@
     width: 40%;
     font-size: 30px;
 }
+
 .prompt svg {
     font-size: 60px;
     margin: 5px;
     color: white;
+}
+
+.prompt svg:hover {
+    color: #55ee90;
+    transform: scale(1.15);
 }
 
 .skills {
@@ -59,8 +66,9 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .about h2 {
-        font-size: 40px;
+    .about h1 {
+        font-size: 45px;
+        margin-bottom: 56px;
     }
 
     .about .prompt {

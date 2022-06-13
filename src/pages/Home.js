@@ -15,11 +15,11 @@ function Home() {
                     <a href='https://www.linkedin.com/in/petar-belchev/'>
                         <LinkedInIcon />
                     </a>
-                    <a href='https://mail.google.com/mail/u'>
-                        <EmailIcon />
-                    </a>
                     <a href='https://github.com/Pe6ko13'>
                         <GithubIcon />
+                    </a>
+                    <a href='https://mail.google.com/mail/u'>
+                        <EmailIcon />
                     </a>
                 </div>
             </div>
