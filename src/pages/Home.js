@@ -8,7 +8,8 @@ function Home() {
     return (
         <div className='home'>
             <div className='about'>
-                <h1>Hello, My nmae is Petar Belchev</h1>
+                <h2>Hello,</h2>
+                <h1>I am Petar Belchev</h1>
                 <div className='prompt'>
                     <p>A software developer...</p>
                     <a href='https://www.linkedin.com/in/petar-belchev/'>
