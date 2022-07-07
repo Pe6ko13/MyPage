@@ -31,12 +31,31 @@
     text-shadow: 2px 2px 5px #55ee90;
 }
 
+.aboutPhoto {
+    z-index: 1;
+}
+
 .myPhoto {
     width: 450px;
     border-radius: 40%;
     filter: grayscale(100%);
     transform: rotate(-33deg);
-    opacity: 0.75;
+    opacity: 0.99;
+    position: relative;
+}
+
+.aboutPhoto::before {
+    content: '';
+    position: absolute;
+    background-color: #55ee90;
+    border-radius: 40%;
+    transform: rotate(56deg);
+    width: 300px;
+    height: 300px;
+    bottom: 11rem;
+    right: 12rem;
+    box-shadow: 8px 5px 8px 10px #55ee90;
+    opacity: 0.5;
 }
 
 .about .prompt {
@@ -97,6 +116,19 @@
     .myPhoto {
         width: 300px;
     }
+
+    .aboutPhoto::before {
+        content: '';
+        position: absolute;
+        transform: rotate(55deg);
+        background-color: #55ee90;
+        border-radius: 38%;
+
+        width: 200px;
+        height: 200px;
+        bottom: 7rem;
+        right: 7rem;
+    }
 }
 
 @media only screen and (max-width: 900px) {
@@ -147,5 +179,9 @@
 
     .skills h2 {
         font-size: 30px;
+    }
+
+    .aboutPhoto::before {
+        display: none;
     }
 }

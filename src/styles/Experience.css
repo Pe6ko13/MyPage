@@ -1,3 +1,8 @@
 .experience {
-    background-color: #e7e5e5;
+    background: rgb(255, 255, 255);
+    background: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(199, 199, 199, 1) 100%
+    );
 }

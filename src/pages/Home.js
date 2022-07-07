@@ -41,7 +41,7 @@ function Home() {
                 <ol className='list'>
                     <li className='item'>
                         <h3>front-end</h3>
-                        <span>HTML, CSS, ReactJS</span>
+                        <span>JavaScript, HTML, CSS, ReactJS</span>
                     </li>
                     <li className='item'>
                         <h3>back-end</h3>
