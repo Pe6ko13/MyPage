@@ -5,15 +5,20 @@
     color: #313236;
 }
 
+.aboutWrap {
+    display: flex;
+    padding: 0 35px;
+    background: linear-gradient(#434443, #e7e5e5);
+}
+
 .about {
-    width: 100%;
+    width: 65%;
     height: calc(100vh - 100px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: #8d8d8d;
     color: #f0f0f0;
 }
 
@@ -23,6 +28,15 @@
     font-size: 80px;
     color: #55ee90;
     height: 50px;
+    text-shadow: 2px 2px 5px #55ee90;
+}
+
+.myPhoto {
+    width: 450px;
+    border-radius: 40%;
+    filter: grayscale(100%);
+    transform: rotate(-33deg);
+    opacity: 0.75;
 }
 
 .about .prompt {
@@ -65,10 +79,57 @@
     font-size: 20px;
 }
 
+@media only screen and (max-width: 1268px) {
+    .aboutWrap {
+        display: flex;
+        align-items: center;
+    }
+
+    .about {
+        width: 60%;
+    }
+
+    .about h1 {
+        font-size: 55px;
+        margin-bottom: 36px;
+    }
+
+    .myPhoto {
+        width: 300px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .aboutWrap {
+        display: flex;
+        align-items: center;
+    }
+    .about {
+        width: 50%;
+    }
+
+    .about h1 {
+        font-size: 40px;
+        margin-bottom: 36px;
+    }
+
+    .myPhoto {
+        width: 250px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
+    .about {
+        width: 100%;
+    }
+
     .about h1 {
         font-size: 45px;
         margin-bottom: 56px;
+    }
+
+    .myPhoto {
+        display: none;
     }
 
     .about .prompt {
