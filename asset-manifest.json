@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/MyPage/static/css/main.48307032.css",
+    "main.js": "/MyPage/static/js/main.ae6df375.js",
+    "static/js/787.d3428903.chunk.js": "/MyPage/static/js/787.d3428903.chunk.js",
+    "static/media/search-address.png": "/MyPage/static/media/search-address.9ea62629e8b134dd86d3.png",
+    "static/media/quiz.jpg": "/MyPage/static/media/quiz.a2b2844f4602a742d4eb.jpg",
+    "static/media/pets.jpg": "/MyPage/static/media/pets.e43a2862ecb56b9938b4.jpg",
+    "static/media/cookBook.png": "/MyPage/static/media/cookBook.9bb3227ef03c14239c35.png",
+    "static/media/recipe.jpg": "/MyPage/static/media/recipe.4a6ea56f7dffcb128866.jpg",
+    "index.html": "/MyPage/index.html",
+    "main.48307032.css.map": "/MyPage/static/css/main.48307032.css.map",
+    "main.ae6df375.js.map": "/MyPage/static/js/main.ae6df375.js.map",
+    "787.d3428903.chunk.js.map": "/MyPage/static/js/787.d3428903.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.48307032.css",
+    "static/js/main.ae6df375.js"
+  ]
+}
