@@ -7,8 +7,12 @@ function Footer() {
     return (
         <div className='footer'>
             <div className='socialMedia'>
-                <LinkedInIcon />
-                <FacebookIcon />
+                <a href='https://www.linkedin.com'>
+                    <LinkedInIcon />
+                </a>
+                <a href='https://www.facebook.com/'>
+                    <FacebookIcon />
+                </a>
             </div>
             <p>&copy; Petar Belchev page</p>
         </div>

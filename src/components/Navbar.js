@@ -11,7 +11,7 @@ function Navbar() {
     useEffect(() => {
         setExpandNav(false);
     }, [location]);
-    
+
     return (
         <div className='navbar' id={expandNav ? 'open' : 'close'}>
             <div className='toggleButton'>

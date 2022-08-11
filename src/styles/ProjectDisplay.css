@@ -35,3 +35,18 @@
     color: #48cf7c;
     transform: scale(1.15);
 }
+
+@media only screen and (max-width: 900px) {
+    .project h1 {
+        font-size: 24px;
+    }
+
+    .project img {
+        width: 300px;
+    }
+
+    .project p {
+        padding: 30px 70px;
+        font-size: 24px;
+    }
+}
