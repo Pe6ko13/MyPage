@@ -2,8 +2,8 @@ import QuizImage from '../assets/quiz.jpg';
 import SearchImage from '../assets/search-address.png';
 import cookBook from '../assets/cookBook.png';
 import car_img from '../assets/car.png';
-import recipe_img from '../assets/recipe_img.jpg';
-import pets_img from '../assets/pets_img';
+import recipe_img from '../assets/recipe.jpg';
+import pets_img from '../assets/pets.jpg';
 
 export const projectList = [
     {
