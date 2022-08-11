@@ -10,8 +10,7 @@ import ProjectDisplay from './pages/ProjectDisplay';
 function App() {
     return (
         <div className='App'>
-            <BrowserRouter>
-                {/* <HashRouter basename='/MyPage'> */}
+            <HashRouter basename='/MyPage'>
                 <Navbar />
                 <Routes>
                     <Route path='/' element={<Home />} />
@@ -20,8 +19,7 @@ function App() {
                     <Route path='/experience' element={<Experience />} />
                 </Routes>
                 <Footer />
-            </BrowserRouter>
-            {/* </HashRouter> */}
+            </HashRouter>
         </div>
     );
 }
