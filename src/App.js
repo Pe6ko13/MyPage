@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes, BrowserRouter } from 'react-router-dom';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Experience from './pages/Experience';
@@ -10,7 +10,8 @@ import ProjectDisplay from './pages/ProjectDisplay';
 function App() {
     return (
         <div className='App'>
-            <HashRouter basename='/MyPage'>
+            <BrowserRouter>
+                {/* <HashRouter basename='/MyPage'> */}
                 <Navbar />
                 <Routes>
                     <Route path='/' element={<Home />} />
@@ -19,7 +20,8 @@ function App() {
                     <Route path='/experience' element={<Experience />} />
                 </Routes>
                 <Footer />
-            </HashRouter>
+            </BrowserRouter>
+            {/* </HashRouter> */}
         </div>
     );
 }
